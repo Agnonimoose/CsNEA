@@ -25,6 +25,7 @@
             "alien": [500, 300]
         },
         "tile_size": 50,
+        "background": "assets/bg.png",
         "grid_size": [20, 16]
     }
 }

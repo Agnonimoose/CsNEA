@@ -467,6 +467,7 @@ class World:
         self.tilemap = WORLD_CONFIG[str(level)]["tilemap"]
         self.item_layer = WORLD_CONFIG[str(level)]["items"]
         self.entity_layer = WORLD_CONFIG[str(level)]["entities"]
+        self.background = pygame.image.load(WORLD_CONFIG[str(level)]["background"])
         
         # Generate platforms from tilemap
         for y, row in enumerate(self.tilemap):
